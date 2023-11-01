@@ -1,0 +1,40 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#letter-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+
+}
+
+#letter-buttons button{
+    width: 7%;
+}
+
+#category{
+    margin: 10px
+    
+}
+
+#category button{
+    padding: 3px 5px;
+    margin: 3px;
+}
+
+#guess-word{
+    display: flex;
+    gap:3px ;
+}
+
+#hangman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
